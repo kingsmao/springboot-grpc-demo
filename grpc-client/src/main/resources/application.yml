@@ -3,4 +3,10 @@ spring:
     name: grpc-client
 server:
   port: 9098
-
+grpc:
+  client:
+    grpc-server: #gRPC配置的名字，GrpcClient注解会用到
+      address: 'static://localhost:9097' # gRPC服务端地址
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext

@@ -3,3 +3,6 @@ spring:
     name: grpc-server
 server:
   port: 9099
+grpc:
+  server:
+    port: 9097
