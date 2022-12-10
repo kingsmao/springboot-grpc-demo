@@ -2,5 +2,5 @@ spring:
   application:
     name: grpc-client
 server:
-  port: 9091
+  port: 9098
 
